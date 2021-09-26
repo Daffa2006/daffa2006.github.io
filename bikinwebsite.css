@@ -1,0 +1,53 @@
+body {
+  min-height: 5000px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff8e5;
+}
+
+.jumbotron {
+  /* background */
+  background-image: url("img/hero\ image\ png@2x.png");
+  background-size: cover;
+
+  height: 755px;
+}
+
+.textOnJumbotron {
+  color: #fff;
+  /*BG color*/
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  padding: 30px;
+  border: 3px solid #eaeaea;
+  margin-top: 50px;
+  text-align: center;
+}
+#skill {
+  background-color: #ffb344;
+}
+.skillImage {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  padding: 2rem;
+}
+/*carousel */
+#project {
+  margin-top: 125px;
+  margin-bottom: 50px;
+}
+
+.d-block {
+  height: 1000px;
+  box-sizing: content-box;
+
+  margin: auto;
+  margin-top: px;
+  border: #eaeaea;
+}
+.carousel-caption {
+  margin: auto;
+  margin-bottom: 60px;
+  background-color: black;
+  opacity: 60%;
+}
