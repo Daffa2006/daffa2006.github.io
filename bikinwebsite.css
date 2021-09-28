@@ -8,8 +8,6 @@ body {
   /* background */
   background-image: url("img/hero\ image\ png@2x.png");
   background-size: cover;
-
-  height: 755px;
 }
 
 .textOnJumbotron {
@@ -38,7 +36,9 @@ body {
 }
 
 .d-block {
-  height: 1000px;
+  max-width: 100%;
+  width: 500px;
+
   box-sizing: content-box;
 
   margin: auto;
