@@ -1,7 +1,6 @@
 body {
-  min-height: 5000px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fff8e5;
+  background-color: #427aa1;
 }
 
 .jumbotron {
@@ -9,19 +8,18 @@ body {
   background-image: url("img/hero\ image\ png@2x.png");
   background-size: cover;
 }
+section {
+  padding-top: 5rem;
+}
 
 .textOnJumbotron {
   color: #fff;
-  /*BG color*/
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
-  padding: 30px;
-  border: 3px solid #eaeaea;
-  margin-top: 50px;
+
+  margin-top: 10px;
   text-align: center;
 }
 #skill {
-  background-color: #ffb344;
+  background-color: #ebf2fa;
 }
 .skillImage {
   width: 50%;
@@ -30,10 +28,6 @@ body {
   padding: 2rem;
 }
 /*carousel */
-#project {
-  margin-top: 125px;
-  margin-bottom: 50px;
-}
 
 .d-block {
   max-width: 100%;
@@ -42,7 +36,7 @@ body {
   box-sizing: content-box;
 
   margin: auto;
-  margin-top: px;
+
   border: #eaeaea;
 }
 .carousel-caption {
@@ -50,4 +44,11 @@ body {
   margin-bottom: 60px;
   background-color: black;
   opacity: 60%;
+}
+#contact {
+  background-color: #ebf2fa;
+  color: black;
+}
+footer {
+  background-color: #054761;
 }
